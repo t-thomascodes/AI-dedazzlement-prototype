@@ -1,6 +1,6 @@
 # AI Demystifier
 
-Flask app that exposes OpenAI's token probabilities to counter the ELIZA Effect. Shows what LLMs could have said instead of what they did say—real probabilities, not magic.
+Flask app that exposes OpenAI's token probabilities to counter the ELIZA Effect. Shows what LLMs could have said instead of what they did say. Exposing real probabilities, not magic.
 
 ## What This Does
 
@@ -55,10 +55,6 @@ Open `http://localhost:5000` in your browser.
 - Enforces anti-persona system prompts to flatten conversational tone
 - Post-processes output to replace empathetic language with mechanical descriptions
 - Filters disclaimer tokens from probability display for cleaner UX
-
-## License
-
-MIT
 
 ## Acknowledgments
 
